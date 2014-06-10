@@ -40,7 +40,7 @@ JQUERY;
 			$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/blog.fieldselection.js\"></script>\n";
 		}
 		if(isset($jquery['tinymce'])){
-				$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.js\"></script>\n";
+			//	$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.js\"></script>\n";
 						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/jquery/js/jquery.url.js\"></script>\n";
 						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.cookie.js\"></script>\n";
 		}
