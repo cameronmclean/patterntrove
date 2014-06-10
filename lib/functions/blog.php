@@ -641,20 +641,9 @@ $jquery['function'] .= <<<END
 	$('#bbcode').tinymce({
 			debug: true,
 			// Location of TinyMCE script
-			script_url : '{$ct_config['blog_path']}inc/tiny_mce/tiny_mce.js',
-			plugins : "{$extraplugins},preelementfix,ltpostlink,ltcode,labtrove,autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,media,searchreplace,preview,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
-			theme : "advanced",
-theme_advanced_buttons1 : "fullscreen,preview,|,pastetext,pasteword,|,undo,redo,|,search,replace,|,bullist,numlist,blockquote,|,link,unlink,ltpostlink,anchor,|,table,image,insertlatex,ltcode",
-theme_advanced_buttons2 : "fontselect,fontsizeselect,|,bold,italic,underline,strikethrough,|,sub,sup,|,justifyleft,justifycenter,justifyright,justifyfull,|,cleanup,help,code,charmap",
-theme_advanced_buttons3 : "",
-theme_advanced_buttons4 : "",
-
-			theme_advanced_toolbar_location : "top",
-			theme_advanced_toolbar_align : "left",
-			theme_advanced_statusbar_location : "bottom",
-			theme_advanced_resizing : true,
-			
-			theme_advanced_blockformats: 'h2,h3,h4,h5,h6,p,blockquote,pre,code',
+			script_url : '{$ct_config['blog_path']}inc/tinymce/tinymce.min.js',
+			plugins : "{$extraplugins},preelementfix,ltpostlink,ltcode,labtrove,autolink,lists,spellchecker,pagebreak,layer,table,save,advlink,insertdatetime,media,searchreplace,preview,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template,RDFaCE,image,link,emoticons,textcolor",
+			theme : "modern",
 			
 			content_css : "{$ct_config['blog_path']}/style/post.css",
 			
