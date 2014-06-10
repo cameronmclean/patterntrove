@@ -1,0 +1,176 @@
+.with_user{
+	background: url("../inc/icons/user.png") no-repeat left center;
+	padding-left:18px;
+}
+
+#link_newpost{
+	background: url("../inc/icons/layout_add.png") no-repeat left bottom;
+	padding-left:18px;
+}
+
+#link_setting{
+	background: url("../inc/icons/cog.png") no-repeat left bottom;
+	padding-left:18px;
+}
+	
+#link_upload{
+	background: url("../inc/icons/folder_add.png") no-repeat left bottom;
+	padding: 2px 2px 2px 18px;
+}
+
+#link_sketch{
+	background: url("../inc/icons/image_add.png") no-repeat left bottom;
+	padding: 2px 2px 2px 18px;
+}
+
+
+.msg{
+	max-width: 400px;
+	margin: 5px auto 10px auto;
+	padding: 10px 10px 10px 35px;
+	font-size:10pt;
+}
+
+.msg.error{
+	background: url('../inc/icons/exclamation.png') no-repeat 10px 10px  #ffcccc;
+	border: 2px solid #ff2222; 
+}
+.msg.message{
+	background: url('../inc/icons/information.png') no-repeat 10px 10px  #99CCFF;
+	border: 2px solid #004DFF; 
+}
+.msg.warning{
+	background: url('../inc/icons/error.png') no-repeat 10px 10px  #fff999;
+	border: 2px solid #FFD700; 
+}
+
+.msg .msg_close{
+	float: right;
+	margin:-10px -7px 0px 0px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.msg.error .msg_close{
+	color: #ff2222; 
+}
+.msg.message .msg_close{
+	color: #004DFF; 
+}
+.msg.warning .msg_close{
+	color: #fff000; 
+}
+
+.required.error{
+	border: 1px solid #ff2222; 	
+}
+
+label.error{
+	color: #ff2222; 	
+	display:block;
+}
+
+form .formreq{
+	font-size:120%;
+	color:red;
+}
+
+.button{
+	cursor: pointer;
+	background: url("../inc/icons/cursor.png") no-repeat left center;
+	padding: 2px 2px 2px 18px;
+}
+
+.button.icononly{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 1px -2px 1px;
+	padding: 0px;
+	background: url("../inc/icons/cursor.png") no-repeat center center;
+}
+
+.button.withbox{
+	padding: 4px 4px 4px 22px;
+	margin: 4px 2px 0px 2px;
+	background: url("../inc/icons/cursor.png") no-repeat 2px center;
+	border: 1px solid #0071bc;
+	display: inline-block;
+	
+	text-align:center;
+}
+
+
+
+.button.data_delete{
+	width: 105px;
+	background: url("../inc/icons/bin.png") no-repeat 2px center  !important;
+}
+.button.data_link{
+	width: 105px;
+	background: url("../inc/icons/page_link.png") no-repeat 2px center  !important;
+}
+
+.data_edit_row{
+	width:100%; 
+	clear:left;
+}
+.data_edit_row:hover {
+	background: #f3f3f3;
+}
+
+.rss_note{
+	background: url("../inc/icons/rss.png") no-repeat left  !important;
+	padding-left: 20px;
+}
+
+.comment_title{
+	padding: 2px;
+	width: 546px;
+}
+
+.combo_input{
+   background-color: #FFFFFF;
+   border-right-width: 0;
+   height: 20px;
+   padding: 0;
+   width: 149px;
+   margin: 1px 0px 1px 1px;
+   vertical-align: top;
+}
+
+.combo_button{
+	width: 22px;
+	height: 22px;
+	background-color: #FFFFFF;
+	border-left-width: 0;
+	border-color: #DDDDDD;
+	padding: 0;
+	margin: 1px 1px 1px 0px;
+	vertical-align: top;
+}
+
+table.csprop {
+	border: 0;
+	table-layout: fixed;
+}
+.csprop th{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+	padding: 0.2em 0.4em;
+	border: 0;
+	width: 35%;
+}
+.csprop td{
+        text-align: left;
+        padding: 0.2em 0.4em;
+	border: 0;
+	vertical-align: bottom;
+	width: 65%;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+#chemspider_keywords > div {
+	margin: 0.5em 0 0 0;
+}

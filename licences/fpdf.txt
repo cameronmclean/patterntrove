@@ -1,0 +1,5 @@
+What's exactly the license of FPDF? Are there any usage restrictions?
+FPDF is Freeware (it is stated at the beginning of the source file).
+There is no usage restriction.
+You may embed it freely in your application (commercial or not), with or without modification.
+You may redistribute it, too.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<post> 
+  <id>%POST_ID%</id>     
+  <title> - Title Addendum</title>
+  <author>                
+    <username>%USERNAME%</username>
+  </author>        
+  <content>                
+    - Content Addendum
+  </content>        
+  <datestamp>%DATESTAMP%</datestamp> 
+  <blog_sname>My Blog</blog_sname>        
+  <metadata> 
+    <Gups>C</Gups>
+    <Gups>D</Gups>
+    <Trees>Cedar</Trees>
+    <Trees>Dutch Elm</Trees>
+    <Fruit>Banana</Fruit>
+  </metadata>
+  <attached_data>
+    <data type="local">%DATA_ID%</data>
+  </attached_data>
+  <edit_reason>Testing appendpost API</edit_reason> 
+</post>

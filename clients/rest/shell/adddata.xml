@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>        
+	<title>Mandatory – Descriptive name for the data item</title>        
+  	<data>  
+		<!--
+		<dataitem type="url" ext="pdf" filename="THESIS.pdf">http://url.of.file/THESIS.pdf</dataitem>               
+		<dataitem type="inline" ext="txt" main="1" filename="yourData.txt"># base64 encoded#</dataitem>         
+		<dataitem type="file" ext="txt" filename="yourData.txt"># the multipart file variable name #</dataitem>
+		-->
+		
+		<!-- The adddata example in labtrove-rest-client.sh uses content-type multipart/form-data
+		to attach a file with a form-data name of 'file_0' NB. this isn't filename, it's a label -->
+
+		<dataitem type="file" ext="jpg" main="1" filename="%FILENAME%">file_0</dataitem> 
+	</data> 
+</dataset>
