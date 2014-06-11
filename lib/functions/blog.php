@@ -638,7 +638,7 @@ if(isset($ct_config['tinymce']['plugins']) && is_array($ct_config['tinymce']['pl
 	$extraplugins = join(".",$ct_config['tinymce']['plugins']);
 
 $jquery['function'] .= <<<END
-	$('#bbcode').tinymce({
+	$('#bbcode').tinymce.init({
 			debug: true,
 			// Location of TinyMCE script
 			script_url : '{$ct_config['blog_path']}inc/tinymce/tinymce.min.js',
@@ -648,7 +648,8 @@ $jquery['function'] .= <<<END
 			content_css : "{$ct_config['blog_path']}/style/post.css",
 			
 	        relative_urls : false,
-	
+	        
+			toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | rdfaceMain rdfaceRun"
 			// Example content CSS (should be your site CSS)
 			//content_css : "{$mcestyles}",
 	});
