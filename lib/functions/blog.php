@@ -642,7 +642,7 @@ $jquery['function'] .= <<<END
 			debug: true,
 			// Location of TinyMCE script
 			script_url : '{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.min.js',
-			plugins : "{$extraplugins},preelementfix,ltpostlink,ltcode,labtrove,autolink,lists,spellchecker,pagebreak,layer,table,save,advlink,insertdatetime,media,searchreplace,preview,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template,RDFaCE,image,link,emoticons,textcolor",
+			plugins : "{$extraplugins},code,autolink,lists,spellchecker,pagebreak,layer,table,save,insertdatetime,media,searchreplace,preview,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template,rdface,image,link,emoticons,textcolor",
 			theme : "modern",
 			
 			content_css : "{$ct_config['blog_path']}/style/post.css",
