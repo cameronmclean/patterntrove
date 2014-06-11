@@ -43,6 +43,8 @@ JQUERY;
 			//	$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.js\"></script>\n";
 						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/jquery/js/jquery.url.js\"></script>\n";
 						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.cookie.js\"></script>\n";
+						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/tinymce.min.js\"></script>\n";
+						$jquery['srcs'] .= "<script type=\"text/javascript\" src=\"{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.js\"></script>\n";
 		}
 		
 		
