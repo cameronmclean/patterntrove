@@ -638,10 +638,10 @@ if(isset($ct_config['tinymce']['plugins']) && is_array($ct_config['tinymce']['pl
 	$extraplugins = join(".",$ct_config['tinymce']['plugins']);
 
 $jquery['function'] .= <<<END
-	$('#bbcode').tinymce.init({
+	$('#bbcode').tinymce({
 			debug: true,
 			// Location of TinyMCE script
-			script_url : '{$ct_config['blog_path']}inc/tinymce/tinymce.min.js',
+			script_url : '{$ct_config['blog_path']}inc/tinymce/jquery.tinymce.min.js',
 			plugins : "{$extraplugins},preelementfix,ltpostlink,ltcode,labtrove,autolink,lists,spellchecker,pagebreak,layer,table,save,advlink,insertdatetime,media,searchreplace,preview,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template,RDFaCE,image,link,emoticons,textcolor",
 			theme : "modern",
 			
